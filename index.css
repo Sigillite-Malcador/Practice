@@ -50,6 +50,24 @@ h1{
     font-family:sans-serif;
     margin-top: 0.5em;
     flex-direction: column;
+
+}
+.title{
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+
+}
+.title1{
+    transform: translateX(150%);
+    animation: ina 1s forwards;
+}
+@keyframes ani {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateY(0);}
+}
+@keyframes ina {
+    0% {transform: translateX(150%);}
+    100% {transform: translateY(0);}
 }
 img{
     width: 14em;
@@ -65,18 +83,8 @@ img{
 .card-image{
     float: left;
     margin-right: 2.5em;
-    animation: myAnimation 4s 1;
 }
-@keyframes myAnimation-right {
-    100%{left: 100;
-    transform: translateX(0);
-    }
-}
-@keyframes myAnimation-left {
-    100%{left: -100;
-    transform: translateX(100);
-    }
-}
+
 .card-text{
     margin-top: 2em;
     margin-right: 3cm;
