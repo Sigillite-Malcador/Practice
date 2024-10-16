@@ -1,151 +1,145 @@
-<!doctype html>
-<html lang="ru">
-    <head>
-        <link rel="stylesheet" href="./index.css" >
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div class=hat>
-            <div class=heading>
-                <div id="rectangle">
-                    <H1>Забота</h1>
-                </div>  
-                <div id="triangle-down"></div>
-            </div>
-        </div>
-        <div class=jacket>
-            <div class=card>
-                <div class=title>
-                    <h2>Программы напралвенные на заботу и здороаье, комфорте и отдыхе сотрудников</h2><br>
-                    <div class=card-image>
-                        <img src="./ДМС.png">
-                    </div>
-                    <div class=card-text>
-                        <h2>ДМС</h2><br>
-                        <p>Страхование оплаченное ООО"Миранда-медия", позволяет сотрудникам компании получить
-                            бесплатно качественные медецинские услуги в случае болезни в лучших клиниках
-                        </p>
-                    </div>
-                    <div class=card-button>
-                        <input type="submit" name="Apply" value="Подробнее">
-                    </div>
-                </div>
-        </div>
-            <div class=card>
-                <div class=title>
-                    <div class=card-image1>
-                        <img src="./ПРОспорт.png">
-                    </div>
-                    <div class=card-text>
-                        <h2>ПРОСПОРТ</h2><br>
-                        <p>ПРОспорт - это программа компинсации расходов сотрудниками компании на занятия спортом.
-                            Программма дает возможность выбора любого вида спортивно-оздоровительных активностей в
-                            рамках утвержденного лимита
-                        </p><br>
-                    </div>
-                    <div class=card-button>
-                        <input type="submit" name="Apply" value="Подробнее">
-                    </div>
-                </div>  
-                
-            </div>
-            <div class=card>
-                <div class=title>
-                    <div class=card-image>
-                        <img src="./МобСвязь.png">
-                    </div>
-                    <div class=card-text>
-                        <h2>МОБИЛЬНАЯ СЛУЖБА СВЯЗИ</h2><br>
-                        <p>Каждый сотрудник нашей компании может получить служебную сим-карту для своего телефона</p><br>
-                    </div>
-                    <div class=card-button>
-                        <input type="submit" name="Apply" value="Подробнее">
-                    </div>
-                </div>
-            </div>
-           <div class=card>
-                <div class=title>
-                    
-                <div class=card-image1 onclick="this.style.left='450px'">
-                    <img src="./Инет.png">
-                </div>
-                    <div class="card-text">
-                        <h2>СКИДКА НА ДОМАШНИЙ ИНТЕРНЕТ</h2><br>
-                        <p>Каждый сотрудник нашей компании может получить скидку на, домашний интернет</p><br>
-                        <p>Тариф <b>"Сотрудник"</b></p><br>
-                        <div class="card-purple_text">
-                            <P><b>100 - Мбит</b> - 200 руб./месяц</P>
-                            <P><b>300 - Мбит</b> - 300 руб./месяц</P>
-                            <br>
-                        </div>
-                        <div class=card-button>
-                            <input type="submit" name="Apply" value="Подробнее">
-                        </div>
-                    </div>
-                </div>
-           </div>
-           <div class=card>
-                <div class=title>
-                    <div class=card-image>
-                        <img src="./Лояльность.png">
-                    </div>
-                    <div class=card-text>
-                        <h2>ПРОГРАММА ЛОЯЛЬНОСТИ</h2><br>
-                        <p>Набор акций и предложений от партнеров с заботой о вашем
-                            комфорте и отдыхе</p><br>
-                    </div>
-                    <div class=card-button>
-                        <input type="submit" name="Apply" value="Подробнее">
-                    </div>
-                </div>
-            </div>
-            <div class=card>
-                <div class=title>
-                    
-                    <div class=card-image1>
-                        <img src="./image_2024-10-14_13-57-47.png">
-                    </div>
-                    <div class=card-text>
-                        <h2>НАВИГАТОР</h2><br>
-                        <p>Навигатор полезен для мест релоциванных сотрудников и не только</p><br>
-                        <div class=card-link>
-                            <p>Читать политику релокации</p><br>
-                        </div>
-                    </div>
-                    <div class=card-button>
-                        <input type="submit" name="Apply" value="Подробнее">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=basement>
-            <div class=card>
-                <div class=title>
-                    <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
-                    <div class=card-rate>
-                        <p>Обращайтесь к сотрудникам направления внутренних дел комуникаций и социальных программ</p>
-                    </div>
-                </div>
-            </div>
-            <div class=card>
-                <div class=card-image>
-                    <img src="./png-transparent-lloydspharmacy-columbidae-pharmacist-brand-call-button-retail-logo-grass.png">
-                </div>
-                <div class=card-purple_text>
-                    <p>ПОЗВОНИТЬ</p>
-                    <P><B>+7 (978) 900-01-01</B></P>
-                </div>
-            </div>
-        <img src="./Безымянный.png">
-            <div class=card>
-                <div class=card-image>
-                    <img src="./png-transparent-bw-letter-icon-thumbnail.png">
-                <div class=card-purple_text>
-                    <p>НАПИСАТЬ</p>
-                    <P><B>vuntrikom@miranda-media.ru</B></P>
-                </div>
-                </div>
-            </div>
-    </body>
-</html>
+
+.html{
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    margin: 0;
+    padding: 0;
+    margin-block-end: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+    margin-block-end: 0;
+    font-family:sans-serif;
+}
+.heading{
+    display: grid;
+
+}
+#rectangle {
+	width: 100%;
+    height: 10em;
+	background-color: #8B00FF;
+}
+#triangle-down {
+	width: 100%;
+	height: 20px;
+	border-left: 50em solid transparent;
+	border-right: 50em solid transparent;
+	border-top: 10em solid;
+    color: #8B00FF;
+
+}
+h1{
+    color: white;
+    margin: 0cm;
+    text-align: center;
+    font-size:  8em;
+    font-family:sans-serif;
+}
+.card {
+    display: flex;
+    font-size:  1.1em;
+    font-family:sans-serif;
+    margin-top: 0.5em;
+    flex-direction: column;
+}
+img{
+    width: 14em;
+    height: 19em;
+    align-self:flex-start;
+    position: relative;
+    
+}
+.card-image1{
+    float: right;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+}
+.card-image{
+    float: left;
+    margin-right: 2.5em;
+    animation: myAnimation 4s 1;
+}
+@keyframes myAnimation-right {
+    100%{left: 100;
+    transform: translateX(0);
+    }
+}
+@keyframes myAnimation-left {
+    100%{left: -100;
+    transform: translateX(100);
+    }
+}
+.card-text{
+    margin-top: 2em;
+    margin-right: 3cm;
+    max-width: 60%;
+}
+input[type=submit]{
+    height: 3em;
+    font-size:1em ;
+    color: white;
+    width: 11em;
+    background-color: rgb(255, 147, 58);
+    border: 0cm;
+    border-radius: 10%;
+    float:center;
+    margin-top: 1em;
+}
+.card-rate{
+    color:rgb(137, 199, 250);
+}
+.card-link{
+    p{
+        color: rgb(144, 204, 184);
+    }
+}.card-purple_text{
+    b{
+        color: #8B00FF;
+    }
+}
+.hat{
+    margin-top: 0%;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-block-end: 2em;
+}
+.jacket{
+    max-width: 1200px;
+    margin:0 auto;
+    flex-direction: column;
+    display: flex;
+    justify-content:space-between;
+    /* padding-left: 1.5cm;
+    padding-right: 0.8cm; */
+}
+.basement{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align:center;
+    img{
+        float: center;
+        width: 0.2em;
+        height: 7em;
+        margin-left: 4em;
+        margin-right: 3em;
+    }
+    .card{
+        align-content: center ;
+        img{
+            float: center;
+            width: 5em;
+            height: 5em;
+        }
+    }
+}
